@@ -6,8 +6,8 @@
         "numTitle": "01",
         "title": "PICK YOUR DESTINATION",
         "images": {
-          "png": "./assets/destination/image-moon.png",
-          "webp": "./assets/destination/image-moon.webp"
+          "png": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926257/image-moon_z49dkk.png",
+          "webp": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926257/image-moon_cg0srd.webp"
         },
         "paragraph": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
         "texDistance": "AVG. DISTANCE",
@@ -16,98 +16,140 @@
         "texTrave": "Est. travel time"
       },
       {
-        "name": "Mars",
+        "id": 2,
+        "name": "MARS",
+        "numTitle": "01",
+        "title": "PICK YOUR DESTINATION",
         "images": {
-          "png": "./assets/destination/image-mars.png",
-          "webp": "./assets/destination/image-mars.webp"
+          "png": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926256/image-mars_kavs9l.pngg",
+          "webp": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926256/image-mars_kavs9l.png"
         },
-        "paragraph": "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
-        "distance": "225 mil. km",
-        "travelTime": "9 months"
+        "paragraph":  "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
+        "texDistance": "AVG. DISTANCE",
+        "distance":  "225 MIL. km",
+        "travelTime": "9 months",
+        "texTrave": "Est. travel time"
       },
       {
-        "name": "Europa",
+        "id": 3,
+        "name": "EUROPA",
+        "numTitle": "01",
+        "title": "PICK YOUR DESTINATION",
         "images": {
-          "png": "./assets/destination/image-europa.png",
-          "webp": "./assets/destination/image-europa.webp"
+          "png": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926256/image-europa_mqvn53.png",
+          "webp": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926256/image-europa_mqvn53.png"
         },
         "paragraph": "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
+        "texDistance": "AVG. DISTANCE",
         "distance": "628 mil. km",
-        "travel": "3 years"
+        "travelTime": "3 years",
+        "texTrave": "Est. travel time"
+        
       },
       {
-        "name": "Titan",
+        "id": 4,
+        "name": "TITAN",
+        "numTitle": "01",
+        "title": "PICK YOUR DESTINATION",
         "images": {
-          "png": "./assets/destination/image-titan.png",
-          "webp": "./assets/destination/image-titan.webp"
+          "png": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926257/image-titan_mxio5a.webp",
+          "webp": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926257/image-titan_mxio5a.webp"
         },
         "paragraph": "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
-        "distance": "1.6 bil. km",
-        "travel": "7 years"
+        "travel": "7 years",
+       "texDistance": "AVG. DISTANCE",
+       "distance": "1.6 BIL. km",
+       "travelTime": "7 years",
+       "texTrave": "Est. travel time"
+      
       }
     ],
     "crew": [
       {
-        "name": "Douglas Hurley",
+        "id": 1,
+        "name": "DOUGLAS HURLEY",
+        "numTitle": "02",
+        "title": "MEET YOUR CREW",
         "images": {
-          "png": "./assets/crew/image-douglas-hurley.png",
-          "webp": "./assets/crew/image-douglas-hurley.webp"
+          "png": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926518/image-douglas-hurley_m24p0g.webp",
+          "webp": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926518/image-douglas-hurley_m24p0g.webp"
         },
-        "role": "Commander",
-        "bio": "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."
+        "Profession": "COMMANDER",
+        "paragraph": "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."
       },
       {
-        "name": "Mark Shuttleworth",
+        "id": 2,
+        "name": "MARK SHUTTLEWORTH",
+        "numTitle": "02",
+        "title": "MEET YOUR CREW",
         "images": {
-          "png": "./assets/crew/image-mark-shuttleworth.png",
-          "webp": "./assets/crew/image-mark-shuttleworth.webp"
+          "png": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926518/image-mark-shuttleworth_kxvvh2.png",
+          "webp": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926518/image-mark-shuttleworth_kxvvh2.png"
         },
-        "role": "Mission Specialist",
-        "bio": "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."
+        "Profession": "Mission Specialist",
+        "paragraph": "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist. "
       },
       {
-        "name": "Victor Glover",
+        "id": 3,
+        "name": "VICTOR GLOVER",
+        "numTitle": "02",
+        "title": "MEET YOUR CREW",
         "images": {
-          "png": "./assets/crew/image-victor-glover.png",
-          "webp": "./assets/crew/image-victor-glover.webp"
+          "png": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926518/image-victor-glover_r8kbwn.png",
+          "webp": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926518/image-victor-glover_r8kbwn.png"
         },
-        "role": "Pilot",
-        "bio": "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."
+        "Profession": "PILOT",
+        "paragraph": "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. "
       },
       {
-        "name": "Anousheh Ansari",
+        "id": 4,
+        "name": "ANOUSHEH ANSARI",
+        "numTitle": "02",
+        "title": "MEET YOUR CREW",
         "images": {
-          "png": "./assets/crew/image-anousheh-ansari.png",
-          "webp": "./assets/crew/image-anousheh-ansari.webp"
+          "png": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926518/image-anousheh-ansari_pzjeyi.png",
+          "webp": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926518/image-anousheh-ansari_pzjeyi.png"
         },
-        "role": "Flight Engineer",
-        "bio": "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."
+        "Profession": "FLIGHT ENGINNER",
+        "paragraph": "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.  "
       }
     ],
     "technology": [
       {
-        "name": "Launch vehicle",
+        "id": 1,
+        "name": "LAUNCH VEHICLE",
+        "numTitle": "03",
+        "title": "SPACE LAUNCH 101",
+        "text": "THE TERMINOLOGY…",
         "images": {
-          "portrait": "./assets/technology/image-launch-vehicle-portrait.jpg",
-          "landscape": "./assets/technology/image-launch-vehicle-landscape.jpg"
+          "portrait": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926644/image-launch-vehicle-portrait_kn8qqr.jpg",
+          "landscape": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926644/image-launch-vehicle-landscape_clcmbi.jpg"
         },
-        "description": "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"
+        "paragraph": "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"
       },
       {
-        "name": "Spaceport",
+        "id": 2,
+        "name": "SPACEPORT",
+        "numTitle": "03",
+        "title": "SPACE LAUNCH 101",
+        "text": "THE TERMINOLOGY…",
         "images": {
-          "portrait": "./assets/technology/image-spaceport-portrait.jpg",
-          "landscape": "./assets/technology/image-spaceport-landscape.jpg"
+          "portrait": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926644/image-spaceport-portrait_ff9h2p.jpg",
+          "landscape": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926644/image-spaceport-landscape_ofyftx.jpg"
         },
-        "description": "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch."
+        "paragraph": "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch."
       },
       {
-        "name": "Space capsule",
+        "id": 3,
+        "name": "SPACE CAPSULE",
+        "numTitle": "03",
+        "title": "SPACE LAUNCH 101",
+        "text": "THE TERMINOLOGY…",
         "images": {
-          "portrait": "./assets/technology/image-space-capsule-portrait.jpg",
-          "landscape": "./assets/technology/image-space-capsule-landscape.jpg"
+          "portrait": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926644/image-space-capsule-portrait_hhdqej.jpg",
+          "landscape": "https://res.cloudinary.com/dd8l8bm6q/image/upload/v1685926644/image-space-capsule-landscape_apdu59.jpg"
         },
-        "description": "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."
+        "paragraph": "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."
       }
     ]
   }
